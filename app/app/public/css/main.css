@@ -92,6 +92,7 @@ form {
   padding-bottom: 5%;
   padding-top: 4%;
 }
+
 tr {
   background-color: white;
 }
@@ -122,8 +123,8 @@ tr {
 }
 
 #location {
-  padding-left: 3%;
-  padding-right: 4%;
+  margin-left: 1%;
+  padding-right: 7%;
   margin-top: 3%;
   width: 400px;
 }
@@ -247,13 +248,16 @@ tr {
   }
 }
 
+@media only screen and (max-width: 721px) {
+  #mapViewButton {
+    margin-top: 5%;
+    margin-left: 25%;
+  }
+}
+
 @media only screen and (max-width: 568px) {
   #startdatepicker {
     margin-right: 25%;
-  }
-
-  #rButton {
-    margin-left: 9%;
   }
 }
 
